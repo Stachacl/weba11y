@@ -1,0 +1,31 @@
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+/* Light mode styles */
+body.light-mode {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Navbar styles */
+.navbar-dark {
+  background-color: #212529;
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-nav .nav-link {
+  color: #f8f9fa;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #adb5bd;
+}
+
+/* Footer styles */
+footer {
+  margin-top: 2rem;
+  text-align: center;
+}
