@@ -1,31 +1,47 @@
-/* Dark mode styles */
-body.dark-mode {
-  background-color: #212529;
-  color: #f8f9fa;
-}
+.dark-mode {
+  /* Colors */
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
 
-/* Light mode styles */
-body.light-mode {
-  background-color: #f8f9fa;
-  color: #212529;
+  /* Background and text colors */
+  background-color: var(--dark-color);
+  color: var(--light-color);
 }
+  /* Navbar */
+  .navbar {
+    background-color: var(--dark-color);
+  }
 
-/* Navbar styles */
-.navbar-dark {
-  background-color: #212529;
-}
+  .navbar-brand {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
 
-.navbar-dark .navbar-brand,
-.navbar-dark .navbar-nav .nav-link {
-  color: #f8f9fa;
-}
+  .nav-link {
+    color: var(--light-color);
+  }
 
-.navbar-dark .navbar-nav .nav-link:hover {
-  color: #adb5bd;
-}
+  #light-mode-toggle {
+    color: var(--light-color);
+    &:hover {
+      color: var(--primary-color);
+    }
+  }
 
-/* Footer styles */
-footer {
-  margin-top: 2rem;
-  text-align: center;
+  /* Footer */
+  footer {
+    color: var(--light-color);
+  }
+
+.light-mode {
+  /* Colors */
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+
+  /* Background and text colors */
+  background-color: var(--light-color
 }
