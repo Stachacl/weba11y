@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web A11Y Sydney</title>
     <link rel="icon" href="assets/favicon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,300;0,500;0,800;1,400&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!-- Custom CSS -->
@@ -12,7 +15,7 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <!-- <a class="navbar-brand" href="#">Web A11Y Sydney</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,46 +36,70 @@
         </div>
     </nav>
 
+    <!-- hero section -->
     <section id="home" class="container-fluid p-5 bg-bluegradient">
-        <div class="row">
-            <div class="col-md-6">
-                <h1 class="display-4">Welcome to Web A11Y Sydney</h1>
-                <p class="lead">We are Sydney's Web Accessibility community, a friendly and welcoming group of people who are passionate about improving digital products, digital services and web. Our community consists of individuals who have lived experiences with disabilities, accessibility professionals, researchers, advocates, user experience professionals, visual and content designers, developers, and testers.</p>
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6 p-5 text-center">
+                <!-- <h4>welcome to</h4> -->
+                <h1 class="bold">WEB ACCESSIBILITY SYDNEY</h1>
+                <p class="p-3">We are Sydney's Web Accessibility community, a friendly and welcoming group of people who are passionate about improving digital products, digital services and web.</p>
+                <button >JOIN THE COOMUNITY</button>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 p-5">
                 <img src='assets/star.png' class="img-fluid"/>
                 <!-- <img src="https://images.pexels.com/photos/4353618/pexels-photo-4353618.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Image description" class="img-fluid" style="max-width: 100%; height: auto;"> -->
             </div>
         </div>
     </section>
-    
-    <!-- Goal section -->
+
+    <!-- About the community section -->
     <section id="goal" class="container-fluid p-5">
         <div class="bg-coolpink rounded">
         <div class="container">
             <div class="row p-5">
-            <div class="col-md-12 text-center">
-                <h3>Our goals are to:</h3>
-                <div class="row text-left m-3">
-                    <div class="col">
-                        <p>Promote awareness and understanding of web accessibility.</p> 
-                        <p>Create a safe space for networking and making new friends. We have a Code of Conduct to ensure everyone feels comfortable and respected.</p>
-                    
-                    </div>
-                    <div class="col">
-                        <p>Share accessibility knowledge through in-person talks and online.</p>
-                        <p>Support people who want to give their first public talk on accessibility.</p>
+                <div class="col-md-12 text-center">
+                    <h3>Who we are</h3>
+                    <div class="row text-left m-3">
+                            <p> Our community consists of individuals who have lived experiences with disabilities, accessibility professionals, researchers, advocates, user experience professionals, visual and content designers, developers, and testers.</p>
+                            <p> Web A11Y Sydney is run by volunteers. All our events are free for general puplic. Venues and catering for our events are generously provided by our friends and fellow accessibility supporters. </p>
                     </div>
                 </div>
-                <p>Learn about web accessibility, join our community create great products, make a difference!</p>
-                <button >Subscribe</button>
             </div>
-            </div>
-        </div>
         </div>
     </section>
-    
-    
+
+        <!-- goals section -->
+        <section id="home" class="container-fluid p-5 bg-purplegradient">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-4 p-5">
+                    <img src='assets/loud.png' class="img-fluid"/>
+                </div>
+                <div class="col-md-8 text-center">
+                    <h3>Our goals are to:</h3>
+                    <div class="row text-left m-3">
+                        <div class="col">
+                            <ul>
+                                <li>Promote awareness and understanding of web accessibility.</li>
+                                <li>Create a safe space for networking and making new friends. We have a Code of Conduct to ensure everyone feels comfortable and respected.</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul>
+                                <li>Share accessibility knowledge through in-person talks and online.</li>
+                                <li>Support people who want to give their first public talk on accessibility.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center p-5">
+             <h3><em>Learn about web accessibility, join our community create great products, </br> make a difference!</em></h3>
+             <!-- <button >Subscribe</button> -->
+        </section>
+
 <div class="bg-purplegradient"> 
     <!-- Next Event -->
     <section id="next-event" >
@@ -92,11 +119,13 @@
         </div>
     </section>
 
+
+
+
     <!-- Footer -->
     <footer class="footer">
         <div class="px-3 py-2">
                     <p>&copy; 2023 Web A11Y Sydney</p>
-            </div>
         </div>
     </footer>
 </div>
