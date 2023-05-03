@@ -15,21 +15,21 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <nav class="navbar navbar-expand navbar-light sticky-top">
         <!-- <a class="navbar-brand" href="#">Web A11Y Sydney</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="#">About the Community</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.meetup.com/en-AU/dsai-syd/events/">Our Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Our Events</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfFZU6epSsE28U3UZIrv1IRQgjnSkxhZOs_tH0NaxWvj2KUKg/viewform?usp=sf_link">Contact Us</a>
                 </li>
 
             </ul>
@@ -43,7 +43,10 @@
                 <!-- <h4>welcome to</h4> -->
                 <h1 class="bold">WEB ACCESSIBILITY SYDNEY</h1>
                 <p class="p-3">We are Sydney's Web Accessibility community, a friendly and welcoming group of people who are passionate about improving digital products, digital services and web.</p>
-                <button >JOIN THE COMMUNITY</button>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFZU6epSsE28U3UZIrv1IRQgjnSkxhZOs_tH0NaxWvj2KUKg/viewform?usp=sf_link" target="_blank">
+                    <!-- The target="_blank" attribute tells the browser to open the link in a new tab. -->
+                    <button>JOIN THE COMMUNITY</button>
+                </a>
             </div>
             <div class="col-md-6 p-5">
                 <img src='assets/star.png' class="img-fluid"/>
@@ -57,12 +60,12 @@
         <div class="bg-coolpink rounded">
         <div class="container">
             <div class="row p-5">
-                <div class="col-md-12 text-center">
+                <article class="col-md-12 text-center">
                     <h3>Who we are</h3>
                     <div class="row text-left m-3">
                             <p> Our community consists of individuals who have lived experiences with disabilities, accessibility professionals, researchers, advocates, user experience professionals, visual and content designers, developers, and testers.</p>
                             <p> Web A11Y Sydney is run by volunteers. All our events are free for general puplic. Venues and catering for our events are generously provided by our friends and fellow accessibility supporters. </p>
-                    </div>
+                    </article>
                 </div>
             </div>
         </div>
@@ -95,37 +98,52 @@
             </div>
         </section>
 
-        <section class="text-center p-5">
-             <h3><em>Learn about web accessibility, join our community create great products, </br> make a difference!</em></h3>
-             <!-- <button >Subscribe</button> -->
+        <section class="text-left p-5">
+            <h2>Future Events</h2>
+            <p><strong>Join us for our next event:</strong><p>
+            <img src='assets/aifora11y.jpg' alt="Event poster, description below" class="w-100">
+            <div class="pt-3">
+                <h2>Artificial Intelligence for Web Accessibility</h2>
+                <dl>
+                    <dt>Date:</dt>
+                    <dd>May 31st, 2023</dd>
+                    
+                    <dt>Time:</dt>
+                    <dd>5.30pm - 8.00pm</dd>
+                    
+                    <dt>Location:</dt>
+                    <dd>Microsoft Reactor Sydney, Australia</dd>
+
+                    <dt>Location:</dt>
+                    <dd>Microsoft Reactor Sydney, </br>
+                        Level 10, 11 York Street, Sydney, NSW 2000</dd>
+
+                    <dt>Description:</dt>
+                    <dd>Join us for an informative and thought-provoking evening as we discuss the latest advancements in web accessibility tools powered by AI.
+                    Don't miss this opportunity to be part of a vital conversation about the future of AI and its impact on society.
+
+                    Get inspired, find your next startup idea, and join our welcoming community of web accessibility advocates.</dd>
+                </dl>
+                <p>Click "Learn More & Register" button below to read the full event description and to register on the event.<p>    
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFZU6epSsE28U3UZIrv1IRQgjnSkxhZOs_tH0NaxWvj2KUKg/viewform?usp=sf_link" target="_blank">                
+                    <button>LEARN MORE & REGISTER </button>
+                </a>
+            </div>
         </section>
 
 <div class="bg-purplegradient"> 
     <!-- Next Event -->
-    <section id="next-event" >
-        <div class="row container p-5">
-            <h2>Future Events</h2>
-            <img src='assets/event31May.png' alt="Event poster, description below" class="w-100">
-            <div class="pt-3">
-                <p>Join us for our next event<p>
-                <h2>Artificial Intelligence for Web Accessibility</h2>
-                <p>Date: May 31st, 2023</p>
-                <p>Time: 5.30pm - 8.00pm</p>
-                <p>Location: Microsoft Reactor</p>
-                </p> Sydney, Australia</p>
-                <p>Number of attendees: 250</p>
-                <button >Register Now</button>
-            </div>
+    <section id="message" >
+        <div class="row container p-5 text-center">
+            <h3><em>Learn about web accessibility, join our community create great products, make a difference!</em></h3>
+            <!-- <button >Subscribe</button> -->
         </div>
     </section>
-
-
-
 
     <!-- Footer -->
     <footer class="footer">
         <div class="px-3 py-2">
-                    <p>&copy; 2023 Web A11Y Sydney</p>
+            <p>&copy; 2023 Web A11Y Sydney</p>
         </div>
     </footer>
 </div>
